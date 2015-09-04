@@ -23,14 +23,16 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-# LINKS = (('Pelican', 'http://getpelican.com/'),
-#          ('Python.org', 'http://python.org/'),
-#          ('Jinja2', 'http://jinja.pocoo.org/'),
-#          ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('Github', 'https://github.com/python-astrodynamics/astrodynamics'),
+    ('Issues', 'https://github.com/python-astrodynamics/astrodynamics/issues'),
+    # ('Jinja2', 'http://jinja.pocoo.org/'),
+    # ('You can modify those links in your config file', '#'),
+)
 
 # # Social widget
-# SOCIAL = (('You can add links in your config file', '#'),
-#           ('Another social link', '#'),)
+SOCIAL = ()
+BANNER = 'images/spacexlaunch.jpeg'
 
 DEFAULT_PAGINATION = False
 
@@ -38,5 +40,5 @@ DEFAULT_PAGINATION = False
 RELATIVE_URLS = True
 
 THEME = 'themes/bootstrap3'
-BOOTSTRAP_THEME = 'superhero'
+BOOTSTRAP_THEME = 'flatly'
 
